@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_congratulations"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    tools:context="com.danil.auto_birthday_vk.activities.CongratulationsActivity">
+
+
+    <Button
+        android:text="Добавить новое"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:id="@+id/addNewButtonCongratulationsActivity"
+        style="@style/buttonblue"
+        android:layout_width="130dp" />
+
+    <ListView
+        android:id="@+id/listViewCongratulationsActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/addNewButtonCongratulationsActivity"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"></ListView>
+
+    <Button
+        android:text="Удалить все"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/deleteAllButtonCongratulationsActivity"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        style="@style/buttonwhite"/>
+</RelativeLayout>

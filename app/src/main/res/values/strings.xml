@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Auto Birthday VK</string>
+    <integer name="com_vk_sdk_AppId">5718394</integer>
+    <string name="authorize_button">Авторизация</string>
+    <string name="congratulations_button">Поздравления</string>
+    <string name="friends_button">Друзья</string>
+    <string name="settings_button">Настройки</string>
+    <string name="search_congratulation_editText">Поиск поздравления</string>
+    <string name="add_new_button">Добавить</string>
+    <string name="remove_all_button">Удалить все</string>
+    <string name="friends_get">friends_get</string>
+    <string name="about_text"> "Это приложение для автоматического поздравление друзей в вконтакте</string>
+
+</resources>

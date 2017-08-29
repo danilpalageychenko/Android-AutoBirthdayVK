@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imgAvatar"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/vk_dog"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/isonline"
+        android:id="@+id/isonline"
+        android:layout_alignBottom="@+id/imgAvatar"
+        android:layout_alignEnd="@+id/imgAvatar" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:srcCompat="@drawable/cake"
+        android:id="@+id/cake"
+        android:layout_below="@+id/txtFullName"
+        android:layout_alignStart="@+id/txtFullName"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/txtFullName"
+        android:layout_weight="1"
+        android:layout_marginLeft="30dp"
+        android:layout_height="30dp"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:text="Random Text"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp" />
+
+    <TextView
+        android:id="@+id/bDate"
+        android:text="Birthday"
+        android:textSize="14sp"
+        android:layout_height="25dp"
+        android:layout_width="200dp"
+        android:textColor="@color/vk_share_link_color"
+        android:layout_alignTop="@+id/cake"
+        android:layout_toEndOf="@+id/cake"
+        android:layout_marginStart="10dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/edit"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/imageView2"
+        android:visibility="gone"/>
+
+    <TextView
+        android:text="Дней до ДР: 3"
+        android:textColor="@color/vk_share_link_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/daysTillBday"
+        android:textSize="14sp"
+        android:layout_alignBottom="@+id/cake"
+        android:layout_alignEnd="@+id/bDate"
+        android:layout_marginEnd="37dp" />
+
+</RelativeLayout>
