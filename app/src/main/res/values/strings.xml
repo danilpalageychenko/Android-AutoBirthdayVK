@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Auto Birthday VK</string>
-    <integer name="com_vk_sdk_AppId">5718394</integer>
+    <integer name="com_vk_sdk_AppId">6166605</integer>
     <string name="authorize_button">Авторизация</string>
     <string name="congratulations_button">Поздравления</string>
     <string name="friends_button">Друзья</string>
