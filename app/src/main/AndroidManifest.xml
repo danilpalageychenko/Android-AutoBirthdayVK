@@ -39,10 +39,7 @@
         <activity android:name=".activities.AboutActivity"></activity>
         <activity android:name=".activities.BannedFriends"></activity>
 
-        <meta-data
-            android:name="io.fabric.ApiKey"
-            android:value="e090306d4810fd285b4d368d4d47a66c5fb21847"
-            />
+
     </application>
 
 </manifest>
